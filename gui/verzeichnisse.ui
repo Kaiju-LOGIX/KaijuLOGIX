@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>100</x>
+    <y>100</y>
+    <width>1000</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Picasso - PyQt Mode</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="labelWelcome">
+      <property name="text">
+       <string>Willkommen bei Picasso</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1000</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuPicasso">
+    <property name="title">
+     <string>Picasso</string>
+    </property>
+    <addaction name="actionBeenden"/>
+   </widget>
+   <widget class="QMenu" name="menuEinstellungen">
+    <property name="title">
+     <string>Einstellungen</string>
+    </property>
+    <addaction name="actionVerzeichnisse"/>
+    <addaction name="actionBenutzer"/>
+    <addaction name="actionGUIModus"/>
+   </widget>
+   <widget class="QMenu" name="menuINFO">
+    <property name="title">
+     <string>INFO</string>
+    </property>
+    <addaction name="actionReadme"/>
+    <addaction name="actionAbout"/>
+    <addaction name="actionLizens"/>
+    <addaction name="actionKontakt"/>
+   </widget>
+   <addaction name="menuPicasso"/>
+   <addaction name="menuEinstellungen"/>
+   <addaction name="menuINFO"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionBeenden">
+   <property name="text">
+    <string>Beenden</string>
+   </property>
+  </action>
+  <action name="actionVerzeichnisse">
+   <property name="text">
+    <string>Verzeichnisse</string>
+   </property>
+  </action>
+  <action name="actionBenutzer">
+   <property name="text">
+    <string>Benutzer</string>
+   </property>
+  </action>
+  <action name="actionGUIModus">
+   <property name="text">
+    <string>GUI-Modus</string>
+   </property>
+  </action>
+  <action name="actionReadme">
+   <property name="text">
+    <string>Readme</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="text">
+    <string>Über</string>
+   </property>
+  </action>
+  <action name="actionLizens">
+   <property name="text">
+    <string>Lizens</string>
+   </property>
+  </action>
+  <action name="actionKontakt">
+   <property name="text">
+    <string>Kontakt</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
+

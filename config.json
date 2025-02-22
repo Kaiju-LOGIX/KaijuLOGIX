@@ -1,0 +1,13 @@
+{
+    "gui_mode": "alt",
+    "db_path": "instandhaltung.db",
+    "knowledgebase_db_path": "knowledgebase_parse.db",
+    "excel_config_file": "Konfiguration.xlsx",
+    "knowledgebase_path": "C:/Users/deren/Desktop/Knowledgebase",
+    "backup_path": "C:/Users/deren/Desktop/elka elektro/start1+/1",
+    "export_path": "C:/Users/deren",
+    "optional_fields": {
+        "ersatzteile": "",
+        "motoren": "Motornummer,im SW,G,BS,Firma,NEU,Typ,Seriennummer,Leistung [in Kw],Spannung [in V],N1-min/-1,N2-min/-1,Strom [in A],Cosinus Phi,Lagerort (R-E-F),Bemerkung"
+    }
+}
